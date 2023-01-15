@@ -1,0 +1,711 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+   background-color: rgb(69, 4, 97);
+}
+
+.d0{
+    position: relative;
+    display:flex;
+    justify-items: auto;
+    background-color: rgb(69, 4, 97);
+    border-radius: 2px;
+    height: auto;
+    font-size:50px;
+}
+.d0 h1{
+    padding-left: 1cm;
+    font-weight:100;
+    color:#edebe8;
+    font-size:80px;
+}
+.dd0{
+    display:flex;
+    margin-left: 13cm;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:50px;
+    margin-top: 25px;
+}
+.dd0 span{
+    border-radius: 2px;
+    height:fit-content;
+}
+/* .dd0 #about span:hover{
+    display: flex;
+} */
+
+
+
+/**************************************NEON START *********************************************************/
+.d0 h1 :hover{
+    -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+    -moz-animation: neon1 1.5s ease-in-out infinite alternate;
+    animation: neon1 1.5s ease-in-out infinite alternate;
+  }
+@font-face {
+    font-family:"Ink Free", Times, serif;
+    font-style: normal;
+    font-weight: 300;
+    src: local('Monoton'), local('Monoton-Regular'), url(http://themes.googleusercontent.com/static/fonts/monoton/v4/AKI-lyzyNHXByGHeOcds_w.woff) format('woff');
+  }
+  
+  @font-face {
+    font-family:"Ink Free", Times, serif;
+    font-style: normal;
+    font-weight: 300;
+    src: local('Iceland'), local('Iceland-Regular'), url(http://themes.googleusercontent.com/static/fonts/iceland/v3/F6LYTZLHrG9BNYXRjU7RSw.woff) format('woff');
+  }
+  
+  @font-face {
+    font-family:"Ink Free", Times, serif;
+    font-style: normal;
+    font-weight: 300;
+    src: local('Pacifico Regular'), local('Pacifico-Regular'), url(http://themes.googleusercontent.com/static/fonts/pacifico/v5/yunJt0R8tCvMyj_V4xSjafesZW2xOQ-xsNqO47m55DA.woff) format('woff');
+  }
+  
+  @font-face {
+    font-family:"Ink Free", Times, serif;
+    font-style: normal;
+    font-weight: 300;
+    src: local('Press Start 2P'), local('PressStart2P-Regular'), url(http://themes.googleusercontent.com/static/fonts/pressstart2p/v2/8Lg6LX8-ntOHUQnvQ0E7o3dD2UuwsmbX3BOp4SL_VwM.woff) format('woff');
+  }
+  
+  @font-face {
+    font-family:"Ink Free", Times, serif;
+    font-style: normal;
+    font-weight: 300;
+    src: local('Audiowide'), local('Audiowide-Regular'), url(http://themes.googleusercontent.com/static/fonts/audiowide/v2/8XtYtNKEyyZh481XVWfVOj8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+  }
+  
+  @font-face {
+    font-family:"Ink Free", Times, serif;
+    font-style: normal;
+    font-weight: 300;
+    src: local('Vampiro One'), local('VampiroOne-Regular'), url(http://themes.googleusercontent.com/static/fonts/vampiroone/v3/Ho2Xld8UbQyBA8XLxF1_NYbN6UDyHWBl620a-IRfuBk.woff) format('woff');
+  }
+  
+  a{
+    text-decoration:none; 
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  
+  span:nth-child(1) a{
+    color:#FF1177;
+    font-family:"Ink Free", Times, serif;
+  }
+  span:nth-child(1) a:hover{
+    -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+    -moz-animation: neon1 1.5s ease-in-out infinite alternate;
+    animation: neon1 1.5s ease-in-out infinite alternate; 
+  }
+  
+  span:nth-child(2) a{
+    font-size:50px;
+    color:#228DFF;
+    font-family:"Ink Free", Times, serif;
+  }
+  span:nth-child(2) a:hover{
+    -webkit-animation: neon2 1.5s ease-in-out infinite alternate;
+    -moz-animation: neon2 1.5s ease-in-out infinite alternate;
+    animation: neon2 1.5s ease-in-out infinite alternate;
+  }
+  
+  span:nth-child(3) a{
+    color:#FFDD1B;
+    font-family:"Ink Free", Times, serif;
+  }
+  span:nth-child(3) a:hover{ 
+    -webkit-animation: neon3 1.5s ease-in-out infinite alternate;
+    -moz-animation: neon3 1.5s ease-in-out infinite alternate;
+    animation: neon3 1.5s ease-in-out infinite alternate; 
+  }
+  
+  span:nth-child(4) a{
+    color:#B6FF00;
+    font-family:"Ink Free", Times, serif;
+    font-size:50px;
+  }
+  span:nth-child(4) a:hover{
+    -webkit-animation: neon4 1.5s ease-in-out infinite alternate;
+    -moz-animation: neon4 1.5s ease-in-out infinite alternate;
+    animation: neon4 1.5s ease-in-out infinite alternate;
+  }
+  
+  span:nth-child(5) a{
+    color:#FF9900;
+    font-family:"Ink Free", Times, serif;
+  }
+  span:nth-child(5) a:hover{
+    -webkit-animation: neon5 1.5s ease-in-out infinite alternate;
+    -moz-animation: neon5 1.5s ease-in-out infinite alternate;
+    animation: neon5 1.5s ease-in-out infinite alternate; 
+  }
+  
+  span:nth-child(6) a{
+
+    font-family:"Ink Free", Times, serif;
+  }
+  span:nth-child(6) a:hover{
+    -webkit-animation: neon6 1.5s ease-in-out infinite alternate;
+    -moz-animation: neon6 1.5s ease-in-out infinite alternate;
+    animation: neon6 1.5s ease-in-out infinite alternate;
+  }
+  
+  span a:hover{
+  color:#dc0f0f;  
+  }
+  
+  
+  
+  /*glow for webkit*/
+  @-webkit-keyframes neon1 {
+    from {
+      text-shadow: 0 0 10px #fff,
+                 0 0 20px  #fff,
+                 0 0 30px  #fff,
+                 0 0 40px  #FF1177,
+                 0 0 70px  #FF1177,
+                 0 0 80px  #FF1177,
+                 0 0 100px #FF1177,
+                 0 0 150px #FF1177;
+    }
+    to {
+      text-shadow: 0 0 5px #fff,
+                 0 0 10px #fff,
+                 0 0 15px #fff,
+                 0 0 20px #FF1177,
+                 0 0 35px #FF1177,
+                 0 0 40px #FF1177,
+                 0 0 50px #FF1177,
+                 0 0 75px #FF1177;
+    }
+  }
+  
+  @-webkit-keyframes neon2 {
+    from {
+      text-shadow: 0 0 10px #fff,
+                 0 0 20px  #fff,
+                 0 0 30px  #fff,
+                 0 0 40px  #228DFF,
+                 0 0 70px  #228DFF,
+                 0 0 80px  #228DFF,
+                 0 0 100px #228DFF,
+                 0 0 150px #228DFF;
+    }
+    to {
+      text-shadow: 0 0 5px #fff,
+                 0 0 10px #fff,
+                 0 0 15px #fff,
+                 0 0 20px #228DFF,
+                 0 0 35px #228DFF,
+                 0 0 40px #228DFF,
+                 0 0 50px #228DFF,
+                 0 0 75px #228DFF;
+    }
+  }
+  
+  @-webkit-keyframes neon3 {
+    from {
+      text-shadow: 0 0 10px #fff,
+                 0 0 20px  #fff,
+                 0 0 30px  #fff,
+                 0 0 40px  #FFDD1B,
+                 0 0 70px  #FFDD1B,
+                 0 0 80px  #FFDD1B,
+                 0 0 100px #FFDD1B,
+                 0 0 150px #FFDD1B;
+    }
+    to {
+      text-shadow: 0 0 5px #fff,
+                 0 0 10px #fff,
+                 0 0 15px #fff,
+                 0 0 20px #FFDD1B,
+                 0 0 35px #FFDD1B,
+                 0 0 40px #FFDD1B,
+                 0 0 50px #FFDD1B,
+                 0 0 75px #FFDD1B;
+    }
+  }
+  
+  @-webkit-keyframes neon4 {
+    from {
+      text-shadow: 0 0 10px #fff,
+                 0 0 20px  #fff,
+                 0 0 30px  #fff,
+                 0 0 40px  #B6FF00,
+                 0 0 70px  #B6FF00,
+                 0 0 80px  #B6FF00,
+                 0 0 100px #B6FF00,
+                 0 0 150px #B6FF00;
+    }
+    to {
+      text-shadow: 0 0 5px #fff,
+                 0 0 10px #fff,
+                 0 0 15px #fff,
+                 0 0 20px #B6FF00,
+                 0 0 35px #B6FF00,
+                 0 0 40px #B6FF00,
+                 0 0 50px #B6FF00,
+                 0 0 75px #B6FF00;
+    }
+  }
+  
+  @-webkit-keyframes neon5 {
+    from {
+      text-shadow: 0 0 10px #fff,
+                 0 0 20px  #fff,
+                 0 0 30px  #fff,
+                 0 0 40px  #FF9900,
+                 0 0 70px  #FF9900,
+                 0 0 80px  #FF9900,
+                 0 0 100px #FF9900,
+                 0 0 150px #FF9900;
+    }
+    to {
+      text-shadow: 0 0 5px #fff,
+                 0 0 10px #fff,
+                 0 0 15px #fff,
+                 0 0 20px #FF9900,
+                 0 0 35px #FF9900,
+                 0 0 40px #FF9900,
+                 0 0 50px #FF9900,
+                 0 0 75px #FF9900;
+    }
+  }
+  
+  @-webkit-keyframes neon6 {
+    from {
+      text-shadow: 0 0 10px #fff,
+                 0 0 20px #fff,
+                 0 0 30px #fff,
+                 0 0 40px #ff00de,
+                 0 0 70px #ff00de,
+                 0 0 80px #ff00de,
+                 0 0 100px #ff00de,
+                 0 0 150px #ff00de;
+    }
+    to {
+      text-shadow: 0 0 5px #fff,
+                 0 0 10px #fff,
+                 0 0 15px #fff,
+                 0 0 20px #ff00de,
+                 0 0 35px #ff00de,
+                 0 0 40px #ff00de,
+                 0 0 50px #ff00de,
+                 0 0 75px #ff00de;
+    }
+  }
+  
+  /*glow for mozilla*/
+  @-moz-keyframes neon1 {
+    from {
+      text-shadow: 0 0 10px #fff,
+                 0 0 20px  #fff,
+                 0 0 30px  #fff,
+                 0 0 40px  #FF1177,
+                 0 0 70px  #FF1177,
+                 0 0 80px  #FF1177,
+                 0 0 100px #FF1177,
+                 0 0 150px #FF1177;
+    }
+    to {
+      text-shadow: 0 0 5px #fff,
+                 0 0 10px #fff,
+                 0 0 15px #fff,
+                 0 0 20px #FF1177,
+                 0 0 35px #FF1177,
+                 0 0 40px #FF1177,
+                 0 0 50px #FF1177,
+                 0 0 75px #FF1177;
+    }
+  }
+  
+  @-moz-keyframes neon2 {
+    from {
+      text-shadow: 0 0 10px #fff,
+                 0 0 20px  #fff,
+                 0 0 30px  #fff,
+                 0 0 40px  #228DFF,
+                 0 0 70px  #228DFF,
+                 0 0 80px  #228DFF,
+                 0 0 100px #228DFF,
+                 0 0 150px #228DFF;
+    }
+    to {
+      text-shadow: 0 0 5px #fff,
+                 0 0 10px #fff,
+                 0 0 15px #fff,
+                 0 0 20px #228DFF,
+                 0 0 35px #228DFF,
+                 0 0 40px #228DFF,
+                 0 0 50px #228DFF,
+                 0 0 75px #228DFF;
+    }
+  }
+  
+  @-moz-keyframes neon3 {
+    from {
+      text-shadow: 0 0 10px #fff,
+                 0 0 20px  #fff,
+                 0 0 30px  #fff,
+                 0 0 40px  #FFDD1B,
+                 0 0 70px  #FFDD1B,
+                 0 0 80px  #FFDD1B,
+                 0 0 100px #FFDD1B,
+                 0 0 150px #FFDD1B;
+    }
+    to {
+      text-shadow: 0 0 5px #fff,
+                 0 0 10px #fff,
+                 0 0 15px #fff,
+                 0 0 20px #FFDD1B,
+                 0 0 35px #FFDD1B,
+                 0 0 40px #FFDD1B,
+                 0 0 50px #FFDD1B,
+                 0 0 75px #FFDD1B;
+    }
+  }
+  
+  @-moz-keyframes neon4 {
+    from {
+      text-shadow: 0 0 10px #fff,
+                 0 0 20px  #fff,
+                 0 0 30px  #fff,
+                 0 0 40px  #B6FF00,
+                 0 0 70px  #B6FF00,
+                 0 0 80px  #B6FF00,
+                 0 0 100px #B6FF00,
+                 0 0 150px #B6FF00;
+    }
+    to {
+      text-shadow: 0 0 5px #fff,
+                 0 0 10px #fff,
+                 0 0 15px #fff,
+                 0 0 20px #B6FF00,
+                 0 0 35px #B6FF00,
+                 0 0 40px #B6FF00,
+                 0 0 50px #B6FF00,
+                 0 0 75px #B6FF00;
+    }
+  }
+  
+  @-moz-keyframes neon5 {
+    from {
+      text-shadow: 0 0 10px #fff,
+                 0 0 20px  #fff,
+                 0 0 30px  #fff,
+                 0 0 40px  #FF9900,
+                 0 0 70px  #FF9900,
+                 0 0 80px  #FF9900,
+                 0 0 100px #FF9900,
+                 0 0 150px #FF9900;
+    }
+    to {
+      text-shadow: 0 0 5px #fff,
+                 0 0 10px #fff,
+                 0 0 15px #fff,
+                 0 0 20px #FF9900,
+                 0 0 35px #FF9900,
+                 0 0 40px #FF9900,
+                 0 0 50px #FF9900,
+                 0 0 75px #FF9900;
+    }
+  }
+  
+  @-moz-keyframes neon6 {
+    from {
+      text-shadow: 0 0 10px #fff,
+                 0 0 20px #fff,
+                 0 0 30px #fff,
+                 0 0 40px #ff00de,
+                 0 0 70px #ff00de,
+                 0 0 80px #ff00de,
+                 0 0 100px #ff00de,
+                 0 0 150px #ff00de;
+    }
+    to {
+      text-shadow: 0 0 5px #fff,
+                 0 0 10px #fff,
+                 0 0 15px #fff,
+                 0 0 20px #ff00de,
+                 0 0 35px #ff00de,
+                 0 0 40px #ff00de,
+                 0 0 50px #ff00de,
+                 0 0 75px #ff00de;
+    }
+  }
+  
+  /*glow*/
+  @keyframes neon1 {
+    from {
+      text-shadow: 0 0 10px #fff,
+                 0 0 20px  #fff,
+                 0 0 30px  #fff,
+                 0 0 40px  #FF1177,
+                 0 0 70px  #FF1177,
+                 0 0 80px  #FF1177,
+                 0 0 100px #FF1177,
+                 0 0 150px #FF1177;
+    }
+    to {
+      text-shadow: 0 0 5px #fff,
+                 0 0 10px #fff,
+                 0 0 15px #fff,
+                 0 0 20px #FF1177,
+                 0 0 35px #FF1177,
+                 0 0 40px #FF1177,
+                 0 0 50px #FF1177,
+                 0 0 75px #FF1177;
+    }
+  }
+  
+  @keyframes neon2 {
+    from {
+      text-shadow: 0 0 10px #fff,
+                 0 0 20px  #fff,
+                 0 0 30px  #fff,
+                 0 0 40px  #228DFF,
+                 0 0 70px  #228DFF,
+                 0 0 80px  #228DFF,
+                 0 0 100px #228DFF,
+                 0 0 150px #228DFF;
+    }
+    to {
+      text-shadow: 0 0 5px #fff,
+                 0 0 10px #fff,
+                 0 0 15px #fff,
+                 0 0 20px #228DFF,
+                 0 0 35px #228DFF,
+                 0 0 40px #228DFF,
+                 0 0 50px #228DFF,
+                 0 0 75px #228DFF;
+    }
+  }
+  
+  @keyframes neon3 {
+    from {
+      text-shadow: 0 0 10px #fff,
+                 0 0 20px  #fff,
+                 0 0 30px  #fff,
+                 0 0 40px  #FFDD1B,
+                 0 0 70px  #FFDD1B,
+                 0 0 80px  #FFDD1B,
+                 0 0 100px #FFDD1B,
+                 0 0 150px #FFDD1B;
+    }
+    to {
+      text-shadow: 0 0 5px #fff,
+                 0 0 10px #fff,
+                 0 0 15px #fff,
+                 0 0 20px #FFDD1B,
+                 0 0 35px #FFDD1B,
+                 0 0 40px #FFDD1B,
+                 0 0 50px #FFDD1B,
+                 0 0 75px #FFDD1B;
+    }
+  }
+  
+  @keyframes neon4 {
+    from {
+      text-shadow: 0 0 10px #fff,
+                 0 0 20px  #fff,
+                 0 0 30px  #fff,
+                 0 0 40px  #B6FF00,
+                 0 0 70px  #B6FF00,
+                 0 0 80px  #B6FF00,
+                 0 0 100px #B6FF00,
+                 0 0 150px #B6FF00;
+    }
+    to {
+      text-shadow: 0 0 5px #fff,
+                 0 0 10px #fff,
+                 0 0 15px #fff,
+                 0 0 20px #B6FF00,
+                 0 0 35px #B6FF00,
+                 0 0 40px #B6FF00,
+                 0 0 50px #B6FF00,
+                 0 0 75px #B6FF00;
+    }
+  }
+  
+  @keyframes neon5 {
+    from {
+      text-shadow: 0 0 10px #fff,
+                 0 0 20px  #fff,
+                 0 0 30px  #fff,
+                 0 0 40px  #FF9900,
+                 0 0 70px  #FF9900,
+                 0 0 80px  #FF9900,
+                 0 0 100px #FF9900,
+                 0 0 150px #FF9900;
+    }
+    to {
+      text-shadow: 0 0 5px #fff,
+                 0 0 10px #fff,
+                 0 0 15px #fff,
+                 0 0 20px #FF9900,
+                 0 0 35px #FF9900,
+                 0 0 40px #FF9900,
+                 0 0 50px #FF9900,
+                 0 0 75px #FF9900;
+    }
+  }
+  
+  @keyframes neon6 {
+    from {
+      text-shadow: 0 0 10px #fff,
+                 0 0 20px #fff,
+                 0 0 30px #fff,
+                 0 0 40px #ff00de,
+                 0 0 70px #ff00de,
+                 0 0 80px #ff00de,
+                 0 0 100px #ff00de,
+                 0 0 150px #ff00de;
+    }
+    to {
+      text-shadow: 0 0 5px #fff,
+                 0 0 10px #fff,
+                 0 0 15px #fff,
+                 0 0 20px #ff00de,
+                 0 0 35px #ff00de,
+                 0 0 40px #ff00de,
+                 0 0 50px #ff00de,
+                 0 0 75px #ff00de;
+    }
+  }
+  
+  
+  /*REEEEEEEEEEESPONSIVE*/
+  @media (max-width: 650px) {
+    
+    
+    span{
+        font-size:50px;
+    }
+  
+  }
+.dd0 #img{
+    font-size: 50px;
+    color: #FF1177;
+    text-shadow: 0 0 50px #FF1177;
+    animation: animate 3s linear infinite;
+}
+#img :hover{
+    animation-delay: 0.3s;
+  }
+  @keyframes animate {
+    from {
+      filter: hue-rotate(0deg);
+    }
+    to {
+        filter:hue-rotate(20deg);
+    }
+  }
+  /*********************************************************** NEON END **************************************************************************/
+  .right .name{
+    color:#FF9900;
+    font-weight: 500;
+  }
+  .right .name h1{
+    font-family: "Ink Free", Times, serif;
+    font-size:3em;
+    justify-content: center;
+    justify-items: center;
+  }
+  .div2 .img2{
+    padding:20px;
+  }
+  .div2{
+    display:flex;
+    flex-direction:row;
+    height:fit-content;
+    width: fit-content;
+    margin-left:30%;
+
+  }
+  .div2 .img2 #image2{
+    height:50px;
+    border-radius: 50%;
+  }
+  .mypic{
+    display:flex;
+    padding-bottom: 1.5cm;
+    height:fit-content;
+    width: fit-content;
+    
+  }
+  .mypic img{
+    border:10px solid rgb(255, 255, 255);
+
+  }
+  .container{
+    position:relative;
+    width:100%;
+    display:grid;/*to show the grid and display flex to show the flex container*/
+    grid-template-columns: 5fr 5fr; /*for colounm alignment */
+}
+.container .left{
+    position:relative;
+    /* background-color: rgb(69, 4, 97); */
+}
+.container .right{
+    position:relative;
+}
+.right .div2 .image-border{
+  display:flex;
+  flex-direction:row;
+}
+.right .div2{
+  display:flex;
+  margin-top:1.1cm;
+  flex-direction:column;
+  transform: rotate(-15deg);
+}
+.left .information{
+  color:#a4c8b9;
+  font-size: 40px;
+  margin-top:30%;
+  font-family: "Ink Free", Times, serif;
+  font-weight:800;
+  margin-left:1cm;
+}
+.container .left{
+    
+}
+.left .information span{
+  background: rgba(184, 94, 29, 0.2);
+  border-radius: 10px;
+}
+.footer{
+  display: flex;
+  margin-top: 1cm;
+  margin-left: 80%;
+  flex-direction: row;
+  cursor: pointer;
+}
+.footer i{
+  font-size:35px;
+}
+.footer #sd{
+  padding:8px;
+}
+.footer #fb{
+  color:rgb(0, 102, 255);
+}
+.footer #twit{
+  color:rgb(0, 102, 255);
+}
+.footer #link{
+  color:rgb(11, 52, 113);
+}
+.footer #insta{
+  color:rgb(255, 98, 0);
+}
+.footer #github{
+  color:rgb(16, 129, 59);
+}
