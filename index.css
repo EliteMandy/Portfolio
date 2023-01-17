@@ -709,3 +709,6 @@ body{
 .footer #github{
   color:rgb(16, 129, 59);
 }
+button{
+  cursor: pointer;
+}
