@@ -1,0 +1,81 @@
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+*{
+  margin: 0;
+  background-color: rgb(69, 4, 97);;
+}
+.flip-card {
+  background-color: transparent;
+  margin-left: 13.5cm;
+  border-radius: 15px ;
+  width: 500px;
+  height: 500px;
+  border: none;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+
+}
+
+/*Image Configuration*/
+.flip-card-front #img1{
+  border:#f1f1f1 solid 10px;
+  height: 700px;
+  width: auto;
+  margin-top: 3.5cm;
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  border-radius: 10px ;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.7s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: rgb(67, 14, 95);
+  color: black;
+  
+}
+
+/* Style the back side */
+.flip-card-back{
+  margin-top: 70px;
+  background-color: rgb(67, 14, 95);
+  color: rgb(197, 72, 72);
+  border-radius:10px;
+  transform: rotateY(180deg);
+}
+.flip-card-back h1,h5{
+  color: rgb(197, 72, 72);
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+}
+.flip-card-back .info h3{
+  font-family: "Sofia", sans-serif;
+  align-items: center;
+  font-size: large;
+}
+.flip-card-back p{
+  align-items: flex-start;
+  padding:0.2cm;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color:#f1f1f1;
+  font-weight: 300;
+}
