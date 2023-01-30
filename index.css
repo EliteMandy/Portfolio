@@ -23,7 +23,7 @@ body{
 }
 .dd0{
     display:flex;
-    margin-left: 13cm;
+    margin-left: 18cm;
     flex-direction: row;
     flex-wrap: wrap;
     gap:50px;
@@ -678,8 +678,7 @@ body{
     
 }
 .left .information span{
-  background: rgba(184, 94, 29, 0.2);
-  border-radius: 10px;
+  color:rgb(232, 173, 34);
 }
 .footer{
   display: flex;
